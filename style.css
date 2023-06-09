@@ -1,0 +1,91 @@
+body {
+      font-family: 'Abel', sans-serif;
+      color: #899673;
+    }
+
+    .navbar {
+      background-color: #899673;
+      color: #fff;
+    }
+
+    .navbar .nav-link {
+      color: #fff;
+      margin-right: 15px;
+      font-size: 16px;
+      transition: background-color 0.3s ease-in-out;
+    }
+
+    .navbar .nav-link:hover {
+      background-color: #547946;
+    }
+
+    .navbar .form-control {
+      background-color: rgba(255, 255, 255, 0.2);
+      border: none;
+      color: #fff;
+      margin-right: 10px;
+    }
+
+    .navbar .btn-outline-light {
+      border-color: #fff;
+      color: #fff;
+    }
+
+    .navbar .btn-outline-light:hover {
+      background-color: #547946;
+      border-color: #547946;
+    }
+
+    .hero-image {
+      background-color: #899673;
+      background-image: url("images/1hero.jpg");
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      padding: 30px;
+    }
+
+    .hero-image-about {
+      background-color: #899673;
+      background-image: url("images/bear.jpg");
+      background-attachment: fixed;
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      padding: 30px;
+    }
+
+    .hero-imgtext {
+      color: white;
+    }
+
+    .section {
+      padding: 40px;
+    }
+
+    .section img {
+      background-color: #F5B666;
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      object-fit: cover;
+    }
+
+    .section-img {
+      padding: 30px;
+      background-color: #899878;
+    }
+    .footer {
+      background-color: #899673;
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    .footer a {
+      color: #fff;
+      margin-right: 10px;
+    }
+    hr {
+      color: orange;
+    }
